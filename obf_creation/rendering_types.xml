@@ -194,7 +194,7 @@
 		<type tag="highway" value="emergency_access_point" minzoom="16" poi_category="emergency"/>
 		<type tag="highway" value="speed_camera" minzoom="16" poi_category="transportation"/>
 		<type tag="highway" value="street_lamp" minzoom="16" />
-		
+		<type tag="highway" value="milestone" minzoom="16" poi_category="transportation" only_map="true" nameTags="distance,pk,kp" />
 	</category>
 	
 	<category name="routes">
@@ -434,7 +434,7 @@
 		<type tag="waterway" value="weir" minzoom="15" poi_prefix="water_"/>
 		<type tag="waterway" value="dam" minzoom="13" />
 		<type tag="waterway" value="mill_pond" minzoom="13" poi_prefix="water_"/>
-
+		<type tag="waterway" value="milestone" minzoom="15" poi_category="transportation" only_map="true" nameTags="distance,pk,kp" />
 	</category>
 
 	<category name="railway" poi_tag="railway" poi_category="transportation" poi_prefix="railway_">
@@ -457,6 +457,7 @@
 		<type tag="railway" value="level_crossing" minzoom="15" />
 		<type tag="railway" value="subway_entrance" minzoom="15" poi_prefix=""/>
 		<type tag="railway" value="buffer_stop" minzoom="15" />
+		<type tag="railway" value="milestone" minzoom="15" poi_category="transportation" only_map="true" nameTags="distance,pk,kp" />
 	</category>
 	
 	<category name="public_transport" poi_tag="public_transport" poi_category="transportation" poi_prefix="public_transport_">
